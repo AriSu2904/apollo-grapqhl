@@ -1,0 +1,21 @@
+{
+  "name": "graphql-apollo",
+  "version": "1.0.0",
+  "description": "Membuat graphql server dengan apollo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "apollo",
+    "server"
+  ],
+  "author": "Ari Susanto",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "graphql": "^16.8.1"
+  }
+}
