@@ -1,3 +1,68 @@
+
+let authors = [
+    {
+        id: '1',
+        full_name: 'Arthur Conan Doyle',
+        birth_date: '1859-05-22',
+        address: 'Edinburgh, Scotland'
+    },
+    {
+        id: '2',
+        full_name: 'Harper Lee',
+        birth_date: '1926-04-28',
+        address: 'Monroeville, Alabama, U.S.'
+    },
+    {
+        id: '3',
+        full_name: 'George Orwell',
+        birth_date: '1903-06-25',
+        address: 'Motihari, Bihar, India'
+    },
+    {
+        id: '4',
+        full_name: 'F. Scott Fitzgerald',
+        birth_date: '1896-09-24',
+        address: 'St. Paul, Minnesota, U.S.'
+    },
+    {
+        id: '5',
+        full_name: 'Aldous Huxley',
+        birth_date: '1894-07-26',
+        address: 'Godalming, Surrey, England'
+    },
+    {
+        id: '6',
+        full_name: 'J. D. Salinger',
+        birth_date: '1919-01-01',
+        address: 'New York City, U.S.'
+    },
+    {
+        id: '7',
+        full_name: 'Herman Melville',
+        birth_date: '1819-08-01',
+        address: 'New York City, U.S.'
+    },
+    {
+        id: '8',
+        full_name: 'Jane Austen',
+        birth_date: '1775-12-16',
+        address: 'Steventon, Hampshire, England'
+    },
+    {
+        id: '9',
+        full_name: 'J. R. R. Tolkien',
+        birth_date: '1892-01-03',
+        address: 'Bloemfontein, Orange Free State (modern-day Free State Province, South Africa)'
+    },
+    {
+        id: '10',
+        full_name: 'Mary Shelley',
+        birth_date: '1797-08-30',
+        address: 'London, England'
+    }
+];
+
+
 let books = [
     {
         id: '1',
@@ -68,69 +133,6 @@ let books = [
         author: authors[9].full_name,
         publisher: 'Lackington, Hughes, Harding, Mavor & Jones',
         publish_year: 1818
-    }
-];
-
-let authors = [
-    {
-        id: '1',
-        full_name: 'Arthur Conan Doyle',
-        birth_date: '1859-05-22',
-        address: 'Edinburgh, Scotland'
-    },
-    {
-        id: '2',
-        full_name: 'Harper Lee',
-        birth_date: '1926-04-28',
-        address: 'Monroeville, Alabama, U.S.'
-    },
-    {
-        id: '3',
-        full_name: 'George Orwell',
-        birth_date: '1903-06-25',
-        address: 'Motihari, Bihar, India'
-    },
-    {
-        id: '4',
-        full_name: 'F. Scott Fitzgerald',
-        birth_date: '1896-09-24',
-        address: 'St. Paul, Minnesota, U.S.'
-    },
-    {
-        id: '5',
-        full_name: 'Aldous Huxley',
-        birth_date: '1894-07-26',
-        address: 'Godalming, Surrey, England'
-    },
-    {
-        id: '6',
-        full_name: 'J. D. Salinger',
-        birth_date: '1919-01-01',
-        address: 'New York City, U.S.'
-    },
-    {
-        id: '7',
-        full_name: 'Herman Melville',
-        birth_date: '1819-08-01',
-        address: 'New York City, U.S.'
-    },
-    {
-        id: '8',
-        full_name: 'Jane Austen',
-        birth_date: '1775-12-16',
-        address: 'Steventon, Hampshire, England'
-    },
-    {
-        id: '9',
-        full_name: 'J. R. R. Tolkien',
-        birth_date: '1892-01-03',
-        address: 'Bloemfontein, Orange Free State (modern-day Free State Province, South Africa)'
-    },
-    {
-        id: '10',
-        full_name: 'Mary Shelley',
-        birth_date: '1797-08-30',
-        address: 'London, England'
     }
 ];
 
